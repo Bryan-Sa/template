@@ -1,0 +1,9 @@
+.container {
+    overflow: hidden;
+    width: 100%;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    height:30vh;
+    color:white;
+    text-align: center;
+}

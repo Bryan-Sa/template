@@ -1,0 +1,95 @@
+.guardContainer {
+    width: 100%;
+    height: 110vh;
+    background: #fff1d0;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 0 0 50% 50% / 100px;
+}
+
+.guardImage {
+    width: 100%;
+    height: 20%;
+    margin-top: 2%;
+    background-image: url("../../images/book.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 23%;
+}
+
+.storeTitle {
+    font-size: max(2vw, 35px);
+    margin-top: 6%;
+}
+
+.catchPhrase {
+    margin-top: 2%;
+    font-size: max(2vw, 30px);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bookInline {
+    display: flex;
+    width: 85%;
+    height: 50%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+
+.first {
+    height: 60%;
+    margin-top: 1%;
+    width: 12%;
+}
+
+.first img {
+    height: 100%;
+    width: 100%;
+    min-width: 180px
+}
+
+.second img {
+    height: 100%;
+    width: 100%;
+    min-width: 180px
+}
+
+.second {
+    height: 60%;
+    margin-top: 5%;
+    width: 12%;
+}
+
+@media (max-width: 531px) {
+    
+    .bookInline {
+        width: 100%;
+        display: block;
+        overflow-y: scroll;
+        text-align: center !important;
+        justify-content: start;
+    }
+    .first{
+        margin-top: 4% !important;
+        text-align: center !important;
+        width: 180px !important;
+        margin: auto;
+    }
+    .second {
+        margin-top: 4% !important;
+        text-align: center !important;
+        width: 180px !important;
+        margin: auto;
+    }
+
+.guardImage {
+    width: 100%;
+    height: 20%;
+    margin-top: 2%;
+    background-image: url("../../images/book.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 23%;
+}
+}

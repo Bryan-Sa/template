@@ -1,0 +1,57 @@
+.bookContainer {
+    height: 90vh;
+    width:100%;
+    overflow-y: auto;
+    background-color:  #fff1d0;
+}
+
+.informationContainer {
+    display: flex;
+    height:35%;
+   
+    justify-content: center;
+}
+
+.bookSplit {
+    margin-left:1%;
+    width:45%;
+    height: 100;
+  
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+.bookSplit span {
+    font-size: max(1.5vw, 12px); 
+}
+
+.bookSplit p{
+    font-size: max(1vw, 12px);
+}
+.smallerSplit {
+    width:20%;
+    height: 100;
+  
+    border-right: 1px solid black;
+}
+.imgBook {
+    min-width: 150px;
+    margin:auto;
+    width:20%;
+    height: 75%;
+    margin-top:3%;
+}
+.imgBook p{
+    font-style: italic;
+    font-size: max(12px);
+
+}
+
+@media (max-width: 531px) {
+.smallerSplit{
+    width:45% !important;
+    height: 100;
+   
+}
+
+}

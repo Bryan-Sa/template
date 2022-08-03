@@ -1,0 +1,100 @@
+.presentationContainer {
+    height: 89vh;
+    width: 100%;
+    background: white;
+    overflow-y: scroll;
+}
+
+.two {
+    border-right: 1px solid black;
+}
+
+@media (max-width: 531px) {
+    .split {
+        min-width: 100%;
+        text-align: left;
+        margin:auto;
+    }
+
+    .split p {
+        margin-top: 5%;
+        width: 90%;
+        font-size: max(1vw, 12px);
+        display: block;
+        margin:auto;
+    }
+    .mainContainer {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        margin: auto;
+    }
+
+    .one {
+        order: 1
+    }
+
+    .two {
+        order: 2
+    }
+
+    .imgtest {
+        margin:auto;
+        width: 100%;
+    }
+
+    .imgTemplate {
+        max-width: 100%;
+        margin:auto !important;
+    }
+
+}
+
+.mainContainer {
+    height: 85%;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+}
+
+.split {
+    font-family: "Times New Roman", Georgia, Serif;
+    width: 50%;
+    color: black;
+}
+
+.titleSize {
+    font-size: max(2.2vw, 20px)
+}
+
+.centerDiv {
+    margin: auto;
+}
+
+.split p {
+    margin-top: 5%;
+    width: 90%;
+    font-size: max(1vw, 12px);
+}
+
+.spanBlock {
+    display: block;
+    margin-top: 4%;
+}
+
+.imgTemplate {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    margin-left: 10%
+}
+
+.imgtest {
+    margin-top: 6%;
+    width: 100%;
+}
+
+.one  {
+    font-style: italic;
+}
