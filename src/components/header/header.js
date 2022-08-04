@@ -31,7 +31,7 @@ const Header = () => {
     <div className="navbar">
     <Icon enabled name='angle double left' size='big' />
       <div className="firstChild">
-        <img style={{width:"40%"}} src={logo}></img>
+        <img className="logoSize" src={logo}></img>
       </div>
       <div className="secondChild">
       <button onClick={(event) => {

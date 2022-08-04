@@ -10,12 +10,20 @@
    
 }
 
+
+.logoSize {
+    width:40%;
+}
+
 @media (max-width: 531px) {
     .firstChild {
-        width: 25% !important;
+        width: 10% !important;
         min-height:1%;
        text-align: center;
        
+    }
+    .logoSize {
+        width:100%;
     }
 }
 

@@ -1,5 +1,6 @@
 .presentationContainer {
-    height: 89vh;
+    height: 100%;
+    padding-bottom: 5%;
     width: 100%;
     background: white;
     overflow-y: scroll;
